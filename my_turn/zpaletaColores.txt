@@ -1,0 +1,5 @@
+blanco         | island Spice   --> #FFFCEF
+piel clara     | chamois        --> #EFDBBB
+madera parque  | Cameo          --> #DFC4A4
+marron Hhuevo  | Antique Brass  --> #C79667 --color letra y fondo
+marron oscuro  | Don Juan       --> #634B4F
