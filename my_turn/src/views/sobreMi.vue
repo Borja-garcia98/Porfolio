@@ -5,8 +5,9 @@
 
     <div class="pt-6 md:p-8 text-left md:text-left space-y-4">
       <div>
+     
         <p class="text-lg font-medium text-light-primary dark:text-dark-primary">
-          Este espacio está dedicado a que me conozcais un poco mejor. Cuales son mis habilidades, conocimientos, puntos fuertes y puntos débiles.
+          Habilidades, conocimientos, puntos fuertes y puntos débiles.
         </p>
       </div>
 
@@ -14,15 +15,12 @@
         <img class="skills" src="@/assets/skills.png" />
       </div>
 
-      <div>  <img class="dafo" src="@/assets/dafo.png" />  </div>
-      
-     
+      <div><img class="dafo" src="@/assets/dafo.png" /></div>
     </div>
   </figure>
 </template>
 
 <style scoped>
-
 .skills {
   width: 100%;
   height: 100%;
@@ -30,6 +28,10 @@
 .dafo {
   width: 100%;
   height: 100%;
+}
+.pdf {
+  width: 100%;
+  height: 550px;
 }
 </style>
 
