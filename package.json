@@ -9,11 +9,13 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
     "v-video-embed": "^1.0.8",
     "vue": "^2.6.11",
     "vue-awesome": "^4.5.0",
     "vue-fragment": "^1.5.2",
+    "vue-pdf": "^4.3.0",
     "vue-router": "^3.2.0",
     "vue-sidebar-menu": "^4.8.1",
     "vue-uuid": "^2.0.2",
