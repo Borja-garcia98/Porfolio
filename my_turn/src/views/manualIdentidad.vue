@@ -9,7 +9,6 @@
         <p class="text-lg font-medium text-light-primary dark:text-dark-primary">
           Diseño de la pagina web. Logo, tipografía , color ...
         </p>
-
         <video-embed title="videManual" class="video" src="https://youtu.be/Yd_c3mIK1WA"> </video-embed>
       </div>
     </div>

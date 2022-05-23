@@ -1,7 +1,7 @@
 <template>
   <input
     type="search"
-    class="block px-4 py-1.5 text-base font-normal text-light-primary dark:text-white bg-light-primary dark:bg-dark-primary bg-clip-padding rounded-md transition ease-in-out m-0 dark:focus:text-white focus:border-sky-blue focus:outline-none"
+    class="block px-4 py-1.5 text-base font-normal text-light-primary dark:text-dark bg-light-primary dark:bg-dark-primary bg-clip-padding rounded-md transition ease-in-out m-0 dark:focus:text-dark focus:border-sky-blue focus:outline-none"
     :id="searchInputId"
     placeholder="Search" />
 </template>

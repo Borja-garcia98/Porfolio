@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <UiIconButton ref="layoutSwitchButton" icon="th-large" @click="toggleDropDown" />
+    <UiIconButton  ref="layoutSwitchButton" icon="th-large" @click="toggleDropDown" />
     <transition name="dropdown">
       <nav
         class="absolute right-0 bg-white dark:bg-dark-secondary z-50 rounded-md flex flex-col p-4 gap-3 border border-gray-100 dark:border-gray-600 overflow-y-auto"

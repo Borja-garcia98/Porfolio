@@ -12,10 +12,10 @@
       </div>
 
       <div class="text-light-primary dark:text-dark-primary">
-        <img class="skills" src="@/assets/skills.png" />
+        <img  alt="skills" class="skills" src="@/assets/skills.png" />
       </div>
 
-      <div><img class="dafo" src="@/assets/dafo.png" /></div>
+      <div><img  alt="dafo" class="dafo" src="@/assets/dafo.png" /></div>
     </div>
   </figure>
 </template>

@@ -18,7 +18,7 @@
 
                 <p class="text-light-primary dark:text-dark-primary sub">JAVASCRIPT - HTML - CSS - BOOTSTRAP</p>
               </a>
-              <video-embed class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
+              <video-embed title="templeVideo" class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
               <a href="https://github.com/Borja-garcia98/Borjify" target="_blank">
                 <img class="imagen" :src="require('@/assets/spoty.png')" alt="spoty"  width="55px" />
                 <p class="text-light-primary dark:text-dark-primary p">
@@ -28,7 +28,7 @@
                 <p class="text-light-primary dark:text-dark-primary sub">JAVASCRIPT - HTML- CSS</p>
               </a>
               <div>
-                <img class="gif" :src="require('@/assets/spoty_borja.gif')" />
+                <img  alt="spoty" class="gif" :src="require('@/assets/spoty_borja.gif')" />
               </div>
 
               <a href="https://github.com/Borja-garcia98/Pokemon" target="_blank">
@@ -36,21 +36,9 @@
                 <p class="text-light-primary dark:text-dark-primary p">
                   Simulador de una pokedex. Las funciones son añadir un pokemon, editar información, eliminarlo de la BD y visualizar la pokedex.
                 </p>
-
                 <p class="text-light-primary dark:text-dark-primary sub">PHP - MYSQL - BOOTSTRAP</p>
               </a>
-              <video-embed class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
-
-              <!-- <a href="https://github.com/OscarCastellaSanSegundo/Project2" target="_blank">
-                <img class="imagen" :src="require('@/assets/Logo1Vector2.png')" width="65px" />
-                <p class="text-light-primary dark:text-dark-primary p">
-                  Aplicación diseñada para "Instituto Broggil". Su objetivo es enseñar a los alumnos del instituto como manejar el servicio de atencion del 112. Junto con mi equipo diseñamos el logo, Manual de identidad, y su funcionalidad 
-                </p>
-              
-                <p class="text-light-primary dark:text-dark-primary sub">LARAVEL - VUE - MYSQL</p>
-               
-              </a>
-              <video-embed class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed> -->
+              <video-embed title="pokemonVideo" class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
             </div>
           </div>
         </figure>
