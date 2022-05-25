@@ -5,12 +5,12 @@
       <video-embed title="videoManual" class="video" src="https://youtu.be/1Xyf6hoOetY"> </video-embed>
     </div>
       <div class="font-medium text-left">
-        <a class="text-sky-blue sub" download="Descarga mi Manual de Identidad" href="/ManualIdentidad_Porfolio.pdf"
+        <a class="text-sky-blue sub hoover" download="Descarga mi Manual de Identidad" href="/ManualIdentidad_Porfolio.pdf"
           >Descargar manual de identidad
         </a>
 
         <a class="font-medium" href="https://www.yumpu.com/es/document/read/66915075/manualidentidad-porfolio" target="_blank">
-          <p class="text-sky-blue sub">Visualizar en Yumpu</p>
+          <p class="text-sky-blue sub hoover">Visualizar en Yumpu</p>
         </a>
       </div>
   </figure>
@@ -35,8 +35,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
   display: flex;
+}
+.hoover:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 /* .pdf {
   width: 100%;

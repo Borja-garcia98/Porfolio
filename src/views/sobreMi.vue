@@ -10,8 +10,8 @@
    
    
     <div class="font-medium sub">
-      <a class="text-sky-blue sub" download="Descarga mi CV" href="/CV_Borja.pdf">Descargar CV</a>
-      <a class="text-sky-blue sub" href="https://www.yumpu.com/es/document/read/66915075/manualidentidad-porfolio" target="_blank"
+      <a class="text-sky-blue sub hoover" download="Descarga mi CV" href="/CV_Borja.pdf">Descargar CV</a>
+      <a class="text-sky-blue sub hoover" href="https://www.yumpu.com/es/document/read/66915075/manualidentidad-porfolio" target="_blank"
         >Visualizar en Yumpu
       </a>
     </div>
@@ -26,6 +26,10 @@
   flex-direction: column;
   align-items: center;
 }
+.hoover:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 .skills {
   width: 100%;
   height: 100%;
@@ -33,11 +37,6 @@
 .dafo {
   width: 100%;
   height: 100%;
-  margin: 0%;
-}
-.pdf {
-  width: 100%;
-  height: 550px;
   margin: 0%;
 }
 </style>
