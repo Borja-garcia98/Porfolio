@@ -11,8 +11,8 @@
    
     <div class="font-medium sub">
       <a class="text-sky-blue sub hoover" download="Descarga mi CV" href="/CV_Borja.pdf">Descargar CV</a>
-      <a class="text-sky-blue sub hoover" href="https://www.yumpu.com/es/document/read/66915075/manualidentidad-porfolio" target="_blank"
-        >Visualizar en Yumpu
+      <a class="text-sky-blue sub hoover" href="https://www.yumpu.com/xx/document/read/66915129/cv-borja" target="_blank">
+      Visualizar en Yumpu
       </a>
     </div>
     </div>

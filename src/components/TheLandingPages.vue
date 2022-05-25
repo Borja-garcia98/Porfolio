@@ -51,7 +51,7 @@ export default {
       window.location.href = "https://es.linkedin.com/in/borja-garcia-bartolom%C3%A9-265696182?original_referer=https%3A%2F%2Fwww.google.com%2F";
     },
     navigateToInstagram() {
-      window.location.href = "https://www.instagram.com/apboficial/?hl=es";
+      window.location.href = "https://www.instagram.com/borja_garcia98/";
     },
   },
 };

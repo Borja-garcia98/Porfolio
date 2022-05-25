@@ -16,7 +16,7 @@
                 <p class="text-light-primary dark:text-dark-primary p">
                   En el siguiente video muestro las peticiones POST para registrar y iniciar sesión a nuevos usuarios.
                 </p>
-                <p class="text-light-primary dark:text-dark-primary sub">Java - Springboot - MySql - Postman</p>
+                <h3 class="text-light-primary dark:text-dark-primary ">JAVA - SPRINGBOOT - MYSQL - POSTMAN</h3>
                 <video-embed title="videoJwt " class="video" src="https://youtu.be/G4ZEfhuStlQ"></video-embed>
               </a>
 
@@ -25,7 +25,7 @@
                   Experiencia trabajando con Springboot junto con Lambdas, en el siguiente video muestro el proceso de subida en AWS de una Lambda a
                   traves de su handler.
                 </p>
-                <p class="text-light-primary dark:text-dark-primary sub">Java - Springboot - Aws</p>
+                <h3 class="text-light-primary dark:text-dark-primary ">JAVA - SPRINGBOOT - AWS</h3>
                 <video-embed title="subidaLambda" class="video" src="https://youtu.be/XpoVg7-XoEI"></video-embed>
               </a>
 
@@ -37,7 +37,7 @@
                   Restablecer password: Desarrolo de un sistema back-office que permite restablecer la contraseña, mediante un token asociado al
                   usuario le permite reestablecer la contraseña en su correo.
                 </p>
-                <p class="text-light-primary dark:text-dark-primary sub">Java - Springboot - MySql</p>
+                <h3 class="text-light-primary dark:text-dark-primary">JAVA - SPRINGBOOT - MYSQL</h3>
                 <iframe
                   title="diagram"
                   class="diagram"

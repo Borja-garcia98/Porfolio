@@ -14,7 +14,7 @@
                   cuales tienen dificultad propia, variando el número de enemigos y el mapa de juego.
                 </p>
 
-                <p class="text-light-primary dark:text-dark-primary sub">JAVASCRIPT - HTML - CSS - BOOTSTRAP</p>
+                <h3 class="text-light-primary dark:text-dark-primary ">JAVASCRIPT - HTML - CSS - BOOTSTRAP</h3>
               </a>
               <video-embed title="templeVideo" class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
               <a href="https://github.com/Borja-garcia98/Borjify" target="_blank">
@@ -22,7 +22,7 @@
                   Simulador de un reproductor Mp3. Se puede reproducir diversas canciones y ampliar la portada de la cancion actual.
                 </p>
 
-                <p class="text-light-primary dark:text-dark-primary sub">JAVASCRIPT - HTML- CSS</p>
+                <h3 class="text-light-primary dark:text-dark-primary ">JAVASCRIPT - HTML- CSS</h3>
               </a>
               <div>
                 <img alt="spoty" class="gif" :src="require('@/assets/spoty_borja.gif')" />
@@ -32,7 +32,7 @@
                 <p class="text-light-primary dark:text-dark-primary p">
                   Simulador de una pokedex. Las funciones son añadir un pokemon, editar información, eliminarlo de la BD y visualizar la pokedex.
                 </p>
-                <p class="text-light-primary dark:text-dark-primary sub">PHP - MYSQL - BOOTSTRAP</p>
+                <h3 class="text-light-primary dark:text-dark-primary ">PHP - MYSQL - BOOTSTRAP</h3>
               </a>
               <video-embed title="pokemonVideo" class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
             </div>
@@ -46,6 +46,10 @@
  
  
 <style scoped>
+iframe{
+  width: 100%;
+  border-radius: 1rem;
+}
 .titulo {
   display: flex;
   justify-content: center;
@@ -53,6 +57,7 @@
   align-items: center;
   margin-bottom: 0%;
 }
+
 
 .video {
   display: flex;

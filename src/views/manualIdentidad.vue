@@ -1,6 +1,5 @@
 <template>
   <figure class="md:flex rounded-xl p-8 md:p-0 sub">
-    <!-- <iframe  title="pdf" class="pdf" src="https://saba.eu/down/ManualBasicoSaba.pdf"> </iframe> -->
     <div class="video">
       <video-embed title="videoManual" class="video" src="https://youtu.be/1Xyf6hoOetY"> </video-embed>
     </div>
@@ -24,11 +23,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  margin-top: 1rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-  display: flex;
+  width: 90%;
+
 }
 .sub {
   display: flex;
