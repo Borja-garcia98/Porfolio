@@ -1,35 +1,35 @@
  <template>
   <figure class="md:flex rounded-xl p-8 md:p-0">
-    <div class="pt-6 md:p-8 text-left md:text-left space-y-4">
+    <div class="pt-6 md:p-8 text-left md:text-left space-y-4 sub">
       <div>
         <img alt="dafo" class="dafo" src="@/assets/dafo.png" />
       </div>
+
       <div class="text-light-primary dark:text-dark-primary">
         <img alt="skills" class="skills" src="@/assets/skills.png" />
       </div>
-   
-   
-    <div class="font-medium sub">
-      <a class="text-sky-blue sub hoover" download="Descarga mi CV" href="/CV_Borja.pdf">Descargar CV</a>
-      <a class="text-sky-blue sub hoover" href="https://www.yumpu.com/xx/document/read/66915129/cv-borja" target="_blank">
-      Visualizar en Yumpu
-      </a>
-    </div>
+      <transition name="fade" appear>
+        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-8 rounded-md text-white flex items-center gap-3" @click="navigateToCv">
+          <v-icon name="download" class="fill-current" />CV
+        </button>
+      </transition>
     </div>
   </figure>
 </template>
 
+<script>
+export default {
+  name: "sobreMi",
+
+  methods: {
+    navigateToCv() {
+      window.location.href = "/CV_Borja.pdf";
+    },
+  },
+};
+</script>
+
 <style scoped>
-.sub {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.hoover:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
 .skills {
   width: 100%;
   height: 100%;

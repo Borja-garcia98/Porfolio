@@ -16,7 +16,7 @@
                 <p class="text-light-primary dark:text-dark-primary p">
                   En el siguiente video muestro las peticiones POST para registrar y iniciar sesión a nuevos usuarios.
                 </p>
-                <h3 class="text-light-primary dark:text-dark-primary ">JAVA - SPRINGBOOT - MYSQL - POSTMAN</h3>
+                <h3 class="text-light-primary dark:text-dark-primary">JAVA - SPRINGBOOT - MYSQL - POSTMAN</h3>
                 <video-embed title="videoJwt " class="video" src="https://youtu.be/G4ZEfhuStlQ"></video-embed>
               </a>
 
@@ -25,7 +25,7 @@
                   Experiencia trabajando con Springboot junto con Lambdas, en el siguiente video muestro el proceso de subida en AWS de una Lambda a
                   traves de su handler.
                 </p>
-                <h3 class="text-light-primary dark:text-dark-primary ">JAVA - SPRINGBOOT - AWS</h3>
+                <h3 class="text-light-primary dark:text-dark-primary">JAVA - SPRINGBOOT - AWS</h3>
                 <video-embed title="subidaLambda" class="video" src="https://youtu.be/XpoVg7-XoEI"></video-embed>
               </a>
 
@@ -56,28 +56,6 @@
 
 
 <style scoped>
-.titulo {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0%;
-}
-.video {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
-}
-.sub {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
-}
 .diagram {
   display: flex;
   justify-content: center;
@@ -87,22 +65,9 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.imagen {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.imgjwt {
-  margin-bottom: 1rem;
-}
-.imagen:hover {
-  transform: scale(1.3);
-  transition: 0.3s;
-}
+
 .p:hover {
   transform: scale(1.02);
   transition: 0.1s;
-}
-.p {
-  margin-bottom: 2rem;
 }
 </style>

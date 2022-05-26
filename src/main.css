@@ -23,9 +23,9 @@ html {
 
 body iframe {
 
-width: 100%;
-border-radius: 0.8rem;
-transition-duration: 0.3s;
+    width: 100%;
+    border-radius: 0.8rem;
+    transition-duration: 0.3s;
 }
 
 body iframe:hover {
@@ -34,18 +34,50 @@ body iframe:hover {
     filter: brightness(60%);
     transition-duration: 0.5s;
 }
+::-webkit-scrollbar{
 
-h3{
-font-size:small;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-margin-top: 2rem;
-margin-bottom: 1rem;
+    overflow: hidden;
 }
 
-p{
-    text-align: center;
+h3 {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 
+p {
+    text-align: center;
+}
+
+.contact {
+    margin-bottom: 1rem;
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.hoover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }

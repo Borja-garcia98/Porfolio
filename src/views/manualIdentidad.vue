@@ -1,47 +1,26 @@
 <template>
   <figure class="md:flex rounded-xl p-8 md:p-0 sub">
     <div class="video">
-      <video-embed title="videoManual" class="video" src="https://youtu.be/1Xyf6hoOetY"> </video-embed>
+      <video-embed title="Manual" class="video" src="https://youtu.be/1Xyf6hoOetY"> </video-embed>
     </div>
-      <div class="font-medium text-left">
-        <a class="text-sky-blue sub hoover" download="Descarga mi Manual de Identidad" href="/ManualIdentidad_Porfolio.pdf"
-          >Descargar manual de identidad
-        </a>
-
-        <a class="font-medium" href="https://www.yumpu.com/es/document/read/66915075/manualidentidad-porfolio" target="_blank">
-          <p class="text-sky-blue sub hoover">Visualizar en Yumpu</p>
-        </a>
-      </div>
+    <transition class="sub" name="fade" appear>
+      <button class="bg-sky-blue dark:bg-dark-primary py-4 px-8 rounded-md text-white flex items-center gap-3" @click="navigateToManual">
+        <v-icon name="download" class="fill-current" />Manual de Identidad
+      </button>
+    </transition>
   </figure>
 </template>
 
+<script>
+export default {
+  name: "manualIdentidad",
 
+  methods: {
+    navigateToManual() {
+      window.location.href = "/ManualIdentidad_Porfolio.pdf";
+    },
+  },
+};
+</script>
 
-<style scoped>
-.video {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  width: 90%;
-
-}
-.sub {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-}
-.hoover:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-/* .pdf {
-  width: 100%;
-  height: 550px;
-} */
-</style>
 

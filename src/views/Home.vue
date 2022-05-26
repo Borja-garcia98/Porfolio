@@ -2,7 +2,7 @@
   <figure class="md:flex rounded-xl md:p-0 scroll">
     <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
       <div class="font-medium">
-        <div class="text-sky-blue titulo">Proyectos DAW</div>
+        <div class="text-sky-blue sub">Proyectos DAW</div>
 
         <figure class="md:flex rounded-xl p-8 md:p-0 sub">
           <div class="pt-6 md:p-8 text-left md:text-left space-y-4">
@@ -46,47 +46,6 @@
  
  
 <style scoped>
-iframe{
-  width: 100%;
-  border-radius: 1rem;
-}
-.titulo {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0%;
-}
-
-
-.video {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
-}
-.sub {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.imagen {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.imgcharacter {
-  margin-bottom: 1rem;
-}
-
-.imagen:hover {
-  transform: scale(1.3);
-  transition: 0.3s;
-}
 
 .p:hover {
   transform: scale(1.02);

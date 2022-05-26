@@ -9,27 +9,29 @@
       </transition>
 
       <transition name="fade" appear>
-        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-7 rounded-md text-white flex items-center gap-3" @click="navigateToGithub">
+        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-7 rounded-md text-white flex items-center gap-3 contact" @click="navigateToGithub">
           <v-icon name="brands/github" class="fill-current" /> Github
         </button>
       </transition>
-<br>
-    <transition name="fade" appear>
-        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-6 rounded-md text-white flex items-center gap-3" @click="navigateToLinkedIn">
+
+      <transition name="fade" appear>
+        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-6 rounded-md text-white flex items-center gap-3 contact" @click="navigateToLinkedIn">
           <v-icon name="brands/linkedin-in" class="fill-current" /> LinkedIn
         </button>
       </transition>
 
-
-<br>
       <transition name="fade" appear>
-        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-5 rounded-md text-white flex items-center gap-3" @click="navigateToInstagram">
+        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-5 rounded-md text-white flex items-center gap-3 contact" @click="navigateToInstagram">
           <v-icon name="brands/instagram" class="fill-current" />Instagram
         </button>
       </transition>
 
+      <transition name="fade" appear>
+        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-11 rounded-md text-white flex items-center gap-3 contact" @click="navigateToCv">
+          <v-icon name="download" class="fill-current" />CV
+        </button>
+      </transition>
     </section>
-
   </fragment>
 </template>
 
@@ -52,6 +54,10 @@ export default {
     },
     navigateToInstagram() {
       window.location.href = "https://www.instagram.com/borja_garcia98/";
+    },
+
+    navigateToCv() {
+      window.location.href = "/CV_Borja.pdf";
     },
   },
 };
