@@ -9,7 +9,7 @@
         <img alt="skills" class="skills" src="@/assets/skills.png" />
       </div>
       <transition name="fade" appear>
-        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-8 rounded-md text-white flex items-center gap-3" @click="navigateToCv">
+        <button class="bg-sky-blue dark:bg-dark-primary py-4 px-12 rounded-md text-white flex items-center gap-3" @click="navigateToCv">
           <v-icon name="download" class="fill-current" />CV
         </button>
       </transition>

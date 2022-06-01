@@ -34,7 +34,7 @@
                 </p>
                 <h3 class="text-light-primary dark:text-dark-primary ">PHP - MYSQL - BOOTSTRAP</h3>
               </a>
-              <video-embed title="pokemonVideo" class="video" src="https://youtu.be/Yd_c3mIK1WA"></video-embed>
+              <video-embed title="pokemonVideo" class="video" src="https://youtu.be/UMGKsy6Vqe4"></video-embed>
             </div>
           </div>
         </figure>

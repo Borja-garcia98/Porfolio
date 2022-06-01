@@ -11,16 +11,5 @@
   </figure>
 </template>
 
-<script>
-export default {
-  name: "manualIdentidad",
-
-  methods: {
-    navigateToManual() {
-      window.location.href = "/ManualIdentidad_Porfolio.pdf";
-    },
-  },
-};
-</script>
 
 
